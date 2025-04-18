@@ -24,4 +24,9 @@ Computer vision (accomplished by using large numbers of images to train a model)
 2.	Object detection. A form of computer vision. It trained the module to identify the location of specific objects in an image. It provides bounding boxes around the detected objects and labels them with a category (e.g., "car," "dog," "person"). It does not care about the exact pixel-level details of the object. For instance, it will tell you that there’s a car in the image, but it won’t tell you which pixels belong to the car.
 ![image](https://github.com/user-attachments/assets/77818d19-b325-48c4-9bc8-2c787760c9fc)
 
-3.	Semantic segmentation. An advanced form of computer vision. The model can identify the individual pixels in the image that belong to a particular object.
+3.	Semantic segmentation. An advanced form of computer vision. The model can identify the individual pixels in the image that belong to a particular object. . It assigns a class label to every pixel in an image, effectively dividing the image into meaningful regions based on the objects or features present. E.g. In the same image, semantic segmentation would color all the pixels corresponding to the car as "car," and the pixels corresponding to the road as "road," providing a detailed mask of the scene.
+   
+Example of Use Cases:
+•	Object Detection: Self-driving cars need to detect specific objects (cars, pedestrians, traffic signs) to navigate safely.
+•	Semantic Segmentation: Medical imaging (e.g., identifying tumors or organs) requires pixel-level accuracy, which is achieved through semantic segmentation.
+
