@@ -249,7 +249,7 @@ Output:
 #'driveId' here is the id of destination drive, driveItemId is the moving-target file item id
 $tenantId = "66df11d7-b86e-4738-9a25-5aa893c19e09"
 $clientId = "710a6848-5604-49cf-8aad-d3bd5bf4b551"
-$clientSecret = "g-88Q~FRQhnzIPu2LE61uyUGmT1k2e9LROrmqdtM"
+$clientSecret = "************"
 $driveId = "b!I3-AcH_QmEeR_qsBtnQykTLyDK6Gd5VHsz-jX8O-f61IIV862SWzTJgWukhCNwEw"
 $driveItemId = "01DPAL7M6O4YXBVPKQ7VAZAWOQF7CBSAAP"
 
